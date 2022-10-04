@@ -8,6 +8,8 @@ public class Book {
     private String Genre;
     private String SubGenre;
     private String Publisher;
+
+    private int numberOfTimesLoaned;
     private boolean loaned;
 
     public Book(String Number, String Title, String Author, String Genre, String SubGenre, String Publisher){
@@ -17,6 +19,7 @@ public class Book {
         this.Genre = Genre;
         this.SubGenre = SubGenre;
         this.Publisher = Publisher;
+        this.numberOfTimesLoaned = 0;
         this.loaned = false;
     }
 
@@ -79,11 +82,22 @@ public class Book {
         this.loaned = loaned;
     }
 
+    public int getNumberOfTimesLoaned() {
+        return numberOfTimesLoaned;
+    }
+
+    public void setNumberOfTimesLoaned(int numberOfTimesLoaned) {
+        this.numberOfTimesLoaned = numberOfTimesLoaned;
+    }
+
+    public void increaseNumberOfTimesLoaned() {
+        this.numberOfTimesLoaned ++;
+    }
 
     @Override public String toString()
     {
         return "Book [Number=" + Number + ", Title=" + Title
                 + ", Author=" + Author
-                + ", Genre=" + Genre + "SubGenre=" + SubGenre + ", Publisher="+ Publisher+ "]";
+                + ", Genre=" + Genre + "SubGenre=" + SubGenre + ", Publisher="+ Publisher+ "numberOfTimesLoaned= "+ numberOfTimesLoaned + "]";
     }
 }
