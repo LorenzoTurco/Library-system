@@ -1,4 +1,4 @@
-package org.example;
+package org.code;
 
 import java.io.InputStream;
 import java.io.PushbackInputStream;

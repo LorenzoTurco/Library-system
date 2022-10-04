@@ -1,4 +1,4 @@
-package org.example;
+package org.code;
 import java.util.*;
 
 public class Library {
