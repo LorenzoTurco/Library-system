@@ -1,13 +1,16 @@
 Number,Title,Author,Genre,SubGenre,Publisher
 1,Fundamentals of Wavelets,"Goswami, Jaideva",tech,signal_processing,Wiley
+1,Fundamentals of Wavelets,"Goswami, Jaideva",tech,signal_processing,Wiley
 2,Data Smart,"Foreman, John",tech,data_science,Wiley
 3,God Created the Integers,"Hawking, Stephen",tech,mathematics,Penguin
+4,Superfreakonomics,"Dubner, Stephen",science,economics,HarperCollins
 4,Superfreakonomics,"Dubner, Stephen",science,economics,HarperCollins
 5,Orientalism,"Said, Edward",nonfiction,history,Penguin
 6,"Nature of Statistical Learning Theory, The","Vapnik, Vladimir",tech,data_science,Springer
 7,Integration of the Indian States,"Menon, V P",nonfiction,history,Orient Blackswan
 8,"Drunkard's Walk, The","Mlodinow, Leonard",science,mathematics,Penguin
 9,Image Processing & Mathematical Morphology,"Shih, Frank",tech,signal_processing,CRC
+10,How to Think Like Sherlock Holmes,"Konnikova, Maria",nonfiction,psychology,Penguin
 10,How to Think Like Sherlock Holmes,"Konnikova, Maria",nonfiction,psychology,Penguin
 11,Data Scientists at Work,Sebastian Gutierrez,tech,data_science,Apress
 12,Slaughterhouse Five,"Vonnegut, Kurt",fiction,classic,Random House
