@@ -19,20 +19,23 @@ public class Main {
     public static List<Book> books;
     public static void main(String[] args) {
 
-        User user1 = new User("Lorenzo", false);
-        User user2 = new User("Ben", true);
-
-
-        Book thisBook = new Book("10","How to Think Like Sherlock Holmes","Konnikova, Maria","nonfiction","psychology","Penguin"
-        );
+        //DUMMY DATA
+        User user1 = new User("Lorenzo");
+        User user2 = new User("Ben");
+        Admin admin = new Admin("admin");
         csvToJson("data\\books_data.csv");
-        //csvToJson2("data\\books_data.csv");
-
         library.addBooks(books);
-        library.loanBook(user1, thisBook);
-        library.addBook(thisBook);
+        library.loanBook(user1, "Superfreakonomics");
+        library.loanBook(user1, "Superfreakonomics");
+        library.loanBook(user1, "How to Think Like Sherlock Holmes");
+        library.loanBook(user2, "Story of Philosophy, The");
 
 
+
+        //CHOOSE USER TO TEST
+
+        //admin.showMenu();
+        user1.showMenu();
 
     }
     public static void csvToJson(String path){
